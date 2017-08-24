@@ -6,46 +6,37 @@
 
 using namespace std;
 
-bool arr[10001];
 
-void prime_number(bool *arr, int M, int N) {
-    int i, j;
-    for (i = M; i <= N; ++i) {
-        int count = 0;
-        j = 1;
-        for (j; j <= i; ++j) {
-            if (i % j == 0) {
-                count++;
-            }
-        }
-        if (count == 2) {
-            arr[i] = true;
-        }
+bool prime_number(int num) {
+    if (num == 1) {
+        return false;
     }
+    for (int i = 2; i * i <= num; ++i) {
+        if (num % i == 0)
+            return false;
+    }
+    return true;
 }
 
 int main() {
-    int M, N, first;
-    long long int sum = 0;
+    int M, N, first = 0, sum = 0;
     bool check = true;
+
     cin >> M >> N;
 
-    prime_number(arr, M, N);
-
     for (int i = M; i <= N; ++i) {
-        if (arr[i]) {
-            sum += i;
+        if (prime_number(i)) {
             if (check) {
                 first = i;
+                check = false;
             }
-            check = false;
+            sum += i;
         }
     }
-    if (check) {
+    if (sum == 0)
         cout << -1 << endl;
-    } else {
+    else
         cout << sum << endl << first;
-    }
 
     return 0;
 }
