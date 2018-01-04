@@ -8,7 +8,8 @@
 
 ## Tip
 - 신광식
-    - [2512번](https://github.com/mel1015/algorithm-study/blob/2512/Winter_Vacation/week_2/2512_mel1015.cpp)
+    - [2512번](https://github.com/mel1015/algorithm-study/blob/2512/Winter_Vacation/week_2/2512_mel1015.cpp), 
+    [1654번](https://github.com/mel1015/algorithm-study/blob/1654/Winter_Vacation/week_2/1654_mel1015.cpp)
         - 이분 탐색을 통해 예산의 상한 값 범위를 좁혀나가면서 찾는다.
 ## Progress
-- 신광식 : 2512
+- 신광식 : 2512, 1654
