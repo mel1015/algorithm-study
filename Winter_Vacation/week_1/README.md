@@ -13,7 +13,8 @@
         - C++의 `string :: operator == ()` 와 `string :: compare ()` 는 동일하다.     
     - [10845번](https://github.com/mel1015/algorithm-study/blob/10845/Winter_Vacation/week_1/10845_mel1015.cpp)
         - [C++ STL](http://www.cplusplus.com/reference/stl/)을 사용하면 편하다.
-    - [11279번](https://github.com/mel1015/algorithm-study/blob/11279/Winter_Vacation/week_1/11279_mel1015.cpp)
+    - [11279번](https://github.com/mel1015/algorithm-study/blob/11279/Winter_Vacation/week_1/11279_mel1015.cpp), 
+    [1927번](https://github.com/mel1015/algorithm-study/blob/1927/Winter_Vacation/week_1/1927_mel1015.cpp)
         - C++ STL의 [priority_queue](http://www.cplusplus.com/reference/queue/priority_queue/) 사용
         - `priority_queue<int> pq;` 는 `priority_queue<int, vector<int>, less<int> > pq;`와 동일하다.
         - priority_queue는 push 연산은 큐와 같지만 pop을 할 때 가장 큰 값이 빠져나온다.
@@ -23,4 +24,5 @@
             less이면 큰 값 부터 빠져나오고 greater이면 작은 값 부터 빠져나온다.
         
 ## Progress
-- 신광식 : 10828, 10845, 11279
+- 신광식 : 10828, 10845, 11279, 1927
+- 한경철 : 10828, 10845

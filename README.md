@@ -1,4 +1,4 @@
-## Algorithm Study
+﻿## Algorithm Study
 
 **[더블릿](www.dovelet.com)**  
 **[백준 온라인 저지](https://www.acmicpc.net/)**
@@ -6,6 +6,7 @@
 ### Member
 
 - 신광식 : mel1015
+- 박찬종 : 7000cj
 
 ### Rule
 
