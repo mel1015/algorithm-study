@@ -8,6 +8,7 @@
 - 장정호 : genesis9413
 - 한경철 : hankch10
 - 최현석 : crns99
+- 박찬종 : 7000cj
 
 ### Rule
 
