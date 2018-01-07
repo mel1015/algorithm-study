@@ -2,3 +2,9 @@
 CMakeLists.txt
 cmake-build-debug/
 main.cpp
+BOJ/9465.cpp
+BOJ/9426.cpp
+BOJ/7576.cpp
+BOJ/2407.cpp
+BOJ/1107.cpp
+BOJ/1005.cpp
