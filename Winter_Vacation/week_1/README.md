@@ -20,9 +20,9 @@
         - priority_queue는 push 연산은 큐와 같지만 pop을 할 때 가장 큰 값이 빠져나온다.
         - `priority_queue<int, vector<int>, less<int> > pq;`에서 두 번째 형 변수는 연동 컨테이너.<br>
             값의 저장 방식이 해당 자료구조와 동일하다.
-        - `priority_queue<int, vector<int>, less<int> > pq;`에서 세 번째 형 변수는 비교에 사용할 연산.<br>
+        - `priority_queue<int, vector<int>, less<int> > pq;`에서 세 번째 형 변수는g 비교에 사용할 연산.<br>
             less이면 큰 값 부터 빠져나오고 greater이면 작은 값 부터 빠져나온다.
--장정호
+- 장정호
     - [10828번](https://github.com/mel1015/algorithm-study/blob/master/Winter_Vacation/week_1/10828_genesis9413.c)
         - scanf("%[^\n]s",&variable)은 공백 포함하여 내용을 입력 받을 수 있습니다.
         - scanf는 입력버퍼가 비어 있을 경우, 입력을 받을 수 있는 상태로 전환합니다. <BR>반복문에서 scanf를 연달아 사용할 경우, 첫번째는 작동하지만 다음 scanf는 작동하지 않습니다. 따라서 getchar()를 통해 중간에 입력 버퍼를 비워줘야, 다음 scanf가 입력받을 수 있는 상태로 전환됩니다.
