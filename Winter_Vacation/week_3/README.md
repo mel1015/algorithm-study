@@ -1,4 +1,4 @@
-> 문제를 풀면서 알게된 팁 공유
+﻿> 문제를 풀면서 알게된 팁 공유
 
 ## To-Do List
 - 알고리즘 문제집 [자료구조](https://www.acmicpc.net/workbook/view/1442)
@@ -10,3 +10,4 @@
 ## Tip
      
 ## Progress
+최현석 : 1874
