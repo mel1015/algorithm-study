@@ -11,8 +11,11 @@
     - [2512번](https://github.com/mel1015/algorithm-study/blob/2512/Winter_Vacation/week_2/2512_mel1015.cpp), 
     [1654번](https://github.com/mel1015/algorithm-study/blob/1654/Winter_Vacation/week_2/1654_mel1015.cpp)
         - 이분 탐색을 통해 구하고자 하는 값의 범위를 좁혀나가면서 찾는다.
+- 한경철
+    - [1654번](https://github.com/hankch10/algorithm-study/blob/master/Winter_Vacation/week_2/1654_hankch10.c)
+        - 이분 탐색을 통해 구하고자 하는 값을 구할 때에 조건값 설정을 신중히 해야 한다.
      
 ## Progress
 - 신광식 : 2512, 1654, 9935
 - 최현석 : 2512, 1654, 9935
-- 한경철 : 2512
+- 한경철 : 2512, 1654
