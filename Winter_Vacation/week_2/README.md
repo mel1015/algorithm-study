@@ -10,12 +10,10 @@
 - 신광식
     - [2512번](https://github.com/mel1015/algorithm-study/blob/2512/Winter_Vacation/week_2/2512_mel1015.cpp), 
     [1654번](https://github.com/mel1015/algorithm-study/blob/1654/Winter_Vacation/week_2/1654_mel1015.cpp)
-        - 이분 탐색을 통해 구하고자 하는 값의 범위를 좁혀나가면서 찾는다.
-        
+        - 이분 탐색을 통해 구하고자 하는 값의 범위를 좁혀나가면서 찾는다.       
 - 한경철
     - [1654번](https://github.com/hankch10/algorithm-study/blob/master/Winter_Vacation/week_2/1654_hankch10.c)
         - 이분 탐색을 통해 구하고자 하는 값을 구할 때에 조건값 설정을 신중히 해야 한다.
-        
 - 장정호
     - [2512번](),[1654번]()
         - 이진 탐색 기법으로 값을 찾았습니다. 값의 범위를 잡을때 기준을 잘 잡아야하며, 다음 탐색 시 범위를 잘 잡아야 합니다. 범위를 잘못잡으면 무한루프에 빠지거나, 잘못된 값이 출력 될 수 있습니다.
