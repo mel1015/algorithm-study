@@ -8,5 +8,10 @@
     [덱](https://www.acmicpc.net/problem/10866)
 
 ## Tip
-
+- 신광식
+    - [1717번](https://github.com/mel1015/algorithm-study/blob/1717/Winter_Vacation/week_4/1717_mel1015.cpp)
+        - [서로소 집합 자료 구조](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%A1%9C%EC%86%8C_%EC%A7%91%ED%95%A9_%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0)
+            참고
+        
 ## Progress
+- 신광식 : 1717
