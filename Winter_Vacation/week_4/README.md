@@ -12,6 +12,9 @@
     - [1717번](https://github.com/mel1015/algorithm-study/blob/1717/Winter_Vacation/week_4/1717_mel1015.cpp)
         - [서로소 집합 자료 구조](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%A1%9C%EC%86%8C_%EC%A7%91%ED%95%A9_%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0)
             참고
+    - [7662번](https://github.com/mel1015/algorithm-study/blob/7662/Winter_Vacation/week_4/7662_mel1015.cpp)
+        - [STL - 맵(Map)](http://www.hanbit.co.kr/channel/category/category_view.html?cms_code=CMS9990721111) 사용
+        - [iterator 개념](http://hyeonstorage.tistory.com/318) 참고
         
 ## Progress
-- 신광식 : 1717
+- 신광식 : 1717, 7662
