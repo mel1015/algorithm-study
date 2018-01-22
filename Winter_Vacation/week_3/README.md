@@ -24,8 +24,8 @@
             - 입력 속도
                 - using cin :- time= 1.30
                 - using scanf :- time= 0.52
-                - using cin with std::ios::sync_with _stdio(false); :- time = 0.44
-                - using cin with std::ios::sync_with _stdio(false); cin.tie(NULL); :- time=0.41
+                - using cin with std::ios::sync_with_stdio(false); :- time = 0.44
+                - using cin with std::ios::sync_with_stdio(false); cin.tie(NULL); :- time=0.41
                 - using getchar :- time = 0.34
                 - using getchar_unlocked :- time = 0.15 
                 <br><br>
