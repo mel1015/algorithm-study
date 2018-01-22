@@ -15,6 +15,9 @@
     - [7662번](https://github.com/mel1015/algorithm-study/blob/7662/Winter_Vacation/week_4/7662_mel1015.cpp)
         - [STL - 맵(Map)](http://www.hanbit.co.kr/channel/category/category_view.html?cms_code=CMS9990721111) 사용
         - [iterator 개념](http://hyeonstorage.tistory.com/318) 참고
+    - [1021번](https://github.com/mel1015/algorithm-study/blob/1021/Winter_Vacation/week_4/1021_mel1015.cpp)
+        - [STL - 덱(Deque)](http://www.hanbit.co.kr/channel/category/category_view.html?cms_code=CMS3942847236) 사용
+        - 덱은 큐와 다르게 앞과 뒤에서 삽입, 삭제가 가능하므로 회전하는 연산을 구현하기 쉽다.
         
 ## Progress
-- 신광식 : 1717, 7662
+- 신광식 : 1717, 7662, 1021
