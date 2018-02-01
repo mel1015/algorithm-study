@@ -16,6 +16,8 @@
         - 주어지는 수의 길이가 길어서 string으로 입력 받고 정렬했다
         - string은 자동으로 배열 형식으로 문자를 입력 받고, 마지막 요소는 널 문자(\0)이므로<br>
         for문의 i의 초기값은 `n.size() - 1` 이다.
+    - [2606번](https://github.com/mel1015/algorithm-study/blob/2606/Winter_Vacation/week_5/2606_mel1015.cpp)
+        - [너비 우선 탐색](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/) 참고
         
 ## Progress
-- 신광식 : 2220, 1427
+- 신광식 : 2220, 1427, 2606
