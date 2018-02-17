@@ -13,6 +13,8 @@
         - [플로이드-워셜 알고리즘](https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9B%8C%EC%85%9C_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) 참고       
     - [11403번](https://github.com/mel1015/algorithm-study/blob/11403/Winter_Vacation/week_6/11403_mel1015.cpp)
         - [너비 우선 탐색](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/) 참고
-
+    - [2178번](https://github.com/mel1015/algorithm-study/blob/2178/Winter_Vacation/week_6/2178_mel1015.cpp)
+        - 너비 우선 탐색(BFS)의 응용
+        
 ## Progress
-- 신광식 : 1389, 11403
+- 신광식 : 1389, 11403, 2178
