@@ -8,5 +8,9 @@
     [보물섬:2589](https://www.acmicpc.net/problem/2589)
 
 ## Tip
+- 신광식
+    - [1697번](https://github.com/mel1015/algorithm-study/blob/1697/Winter_Vacation/week_7/1697_mel1015.cpp)
+        - BFS 응용
         
 ## Progress
+- 신광식 : 1697
