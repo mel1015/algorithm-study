@@ -11,10 +11,10 @@
 - 신광식
     - [1697번](https://github.com/mel1015/algorithm-study/blob/1697/Winter_Vacation/week_7/1697_mel1015.cpp)
         - BFS 응용
-    - [7576번](https://github.com/mel1015/algorithm-study/blob/7576/Winter_Vacation/week_7/7576_mel1015.cpp)
+    - [7576번](https://github.com/mel1015/algorithm-study/blob/7576/Winter_Vacation/week_7/7576_mel1015.cpp), 
+    [1012번](https://github.com/mel1015/algorithm-study/blob/1012/Winter_Vacation/week_7/1012_mel1015.cpp),
+    [2589번](https://github.com/mel1015/algorithm-study/blob/2589/Winter_Vacation/week_7/2589_mel1015.cpp)
         - week_6 의 [2178번](https://github.com/mel1015/algorithm-study/blob/2178/Winter_Vacation/week_6/2178_mel1015.cpp) 응용   
-    - [1012번](https://github.com/mel1015/algorithm-study/blob/1012/Winter_Vacation/week_7/1012_mel1015.cpp)
-        - 위와 동일
             
 ## Progress
-- 신광식 : 1697, 7576, 1012
+- 신광식 : 1697, 7576, 1012, 2589
