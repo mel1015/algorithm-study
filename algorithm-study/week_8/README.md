@@ -8,5 +8,9 @@
     [알파벳:1987](https://www.acmicpc.net/problem/1987)
 
 ## Tip
+- 신광식
+    - [1707번](https://github.com/mel1015/algorithm-study/blob/1707/algorithm-study/week_8/1707_mel1015.cpp)
+        - 여전히 BFS 응용
 
 ## Progress
+- 신광식 : 1707
