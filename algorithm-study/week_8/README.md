@@ -11,6 +11,9 @@
 - 신광식
     - [1707번](https://github.com/mel1015/algorithm-study/blob/1707/algorithm-study/week_8/1707_mel1015.cpp)
         - 여전히 BFS 응용
+    - [2667번](https://github.com/mel1015/algorithm-study/blob/2667/algorithm-study/week_8/2667_mel1015.cpp)
+        - [유기농 배추:1012](https://github.com/mel1015/algorithm-study/blob/1012/Winter_Vacation/week_7/1012_mel1015.cpp)
+        에서 조금만 바꾸면 된다.
 
 ## Progress
-- 신광식 : 1707
+- 신광식 : 1707, 2667
