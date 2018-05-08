@@ -16,6 +16,8 @@
         에서 조금만 바꾸면 된다.
     - [2583번](https://github.com/mel1015/algorithm-study/blob/2583/algorithm-study/week_8/2583_mel1015.cpp)
         - 계속 똑같은 유형만 푸는거 같다.
+    - [1987번](https://github.com/mel1015/algorithm-study/blob/1987/algorithm-study/week_8/1987_mel1015.cpp)
+        - 기존의 DFS에 다시 돌아와 계산하는 경우를 위해 초기화 과정이 추가됨(37라인).
         
 ## Progress
-- 신광식 : 1707, 2667, 2583
+- 신광식 : 1707, 2667, 2583, 1987
