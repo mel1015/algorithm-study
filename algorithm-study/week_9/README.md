@@ -12,6 +12,9 @@
 - 신광식
     - [2468번](https://github.com/mel1015/algorithm-study/blob/2468/algorithm-study/week_9/2468_mel1015.cpp)
         - 쓸모없는 코드가 많다. 매번 잠기는 지역을 초기화 할 필요가 없음.
+    - [6603번](https://github.com/mel1015/algorithm-study/blob/6603/algorithm-study/week_9/6603_mel1015.cpp)
+        - `next_permutation(Iterator first, Iterator last)`을 사용하여 순열을 자동으로 구할 수 있다.
+        - [순열 구하기](https://twpower.github.io/82-next_permutation-and-prev_permutation) 참고
 
 ## Progress
-- 신광식 : 2468
+- 신광식 : 2468, 6603
