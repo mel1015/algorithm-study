@@ -9,5 +9,9 @@
     [교통 체계:1734](https://www.acmicpc.net/problem/1734)
 
 ## Tip
-   
+- 신광식
+    - [2468번](https://github.com/mel1015/algorithm-study/blob/2468/algorithm-study/week_9/2468_mel1015.cpp)
+        - 쓸모없는 코드가 많다. 매번 잠기는 지역을 초기화 할 필요가 없음.
+
 ## Progress
+- 신광식 : 2468
