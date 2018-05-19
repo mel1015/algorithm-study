@@ -15,6 +15,9 @@
     - [6603번](https://github.com/mel1015/algorithm-study/blob/6603/algorithm-study/week_9/6603_mel1015.cpp)
         - `next_permutation(Iterator first, Iterator last)`을 사용하여 순열을 자동으로 구할 수 있다.
         - [순열 구하기](https://twpower.github.io/82-next_permutation-and-prev_permutation) 참고
-
+    - [2250번](https://github.com/mel1015/algorithm-study/blob/2250/algorithm-study/week_9/2250_mel1015.cpp)
+        - 어렵다. 구글링의 도움을 받음. **스스로 풀자**
+        - [참고](http://www.crocus.co.kr/584)
+        
 ## Progress
-- 신광식 : 2468, 6603
+- 신광식 : 2468, 6603, 2250
