@@ -18,6 +18,8 @@
     - [2250번](https://github.com/mel1015/algorithm-study/blob/2250/algorithm-study/week_9/2250_mel1015.cpp)
         - 어렵다. 구글링의 도움을 받음. **스스로 풀자**
         - [참고](http://www.crocus.co.kr/584)
-        
+    - [11812번](https://github.com/mel1015/algorithm-study/tree/11812/algorithm-study/week_9)
+        - 자식 노드와 부모 노드의 관계식, K = 1인 경우를 따로 처리해주는게 중요
+        - **구글링 그만하자**
 ## Progress
-- 신광식 : 2468, 6603, 2250
+- 신광식 : 2468, 6603, 2250, 11812
