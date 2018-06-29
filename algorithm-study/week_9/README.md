@@ -21,5 +21,10 @@
     - [11812번](https://github.com/mel1015/algorithm-study/tree/11812/algorithm-study/week_9)
         - 자식 노드와 부모 노드의 관계식, K = 1인 경우를 따로 처리해주는게 중요
         - **구글링 그만하자**
+    - [1734번](https://github.com/mel1015/algorithm-study/blob/1734/algorithm-study/week_9/1734_mel1015.cpp)
+        - **메모리 초과, 다시 풀 것**
+        - 입력으로 들어오는 도시의 개수가 100,000개 까지
+        - BFS로 큐에 방문 도시들을 다 담으면 메모리를 많이 사용함
+        
 ## Progress
-- 신광식 : 2468, 6603, 2250, 11812
+- 신광식 : 2468, 6603, 2250, 11812, ~~1734~~
