@@ -1,6 +1,6 @@
 ﻿## 알고리즘 스터디
  
-**[백준 온라인 저지](https://www.acmicpc.net/)**
+**[백준 온라인 저지](https://www.acmicpc.net/)**  
 **[SW Expert Academy](https://www.swexpertacademy.com/main/main.do)**
 
 ### Member
