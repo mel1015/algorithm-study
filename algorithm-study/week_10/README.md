@@ -12,6 +12,14 @@
         - [string::find](http://www.cplusplus.com/reference/string/string/find/)함수 사용
     - [1209. Sum](https://github.com/mel1015/algorithm-study/blob/1209/algorithm-study/week_10/1209_mel1015.cpp)
         - [max_element](https://en.cppreference.com/w/cpp/algorithm/max_element)사용
+    - [1208. Flatten](https://github.com/mel1015/algorithm-study/blob/1208/algorithm-study/week_10/1208_mel1015.cpp)
+        - [iterator 개념](http://hyeonstorage.tistory.com/318)
+        - iterator와 max_element로 벡터내의 최댓값 구하는법  
+        ```
+        #include <algorithm>    // max_element 사용
+        vector<int>::iterator maxValue; // iterator 선언
+        maxValue = max_element(vec.begin(), vec.end()); // iterator가 최댓값을 가리킴
+        ```
         
 ## Progress
-- 신광식 : 1954, 1213, 1209
+- 신광식 : 1954, 1213, 1209, 1208
