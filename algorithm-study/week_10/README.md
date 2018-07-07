@@ -20,6 +20,8 @@
         vector<int>::iterator maxValue; // iterator 선언
         maxValue = max_element(vec.begin(), vec.end()); // iterator가 최댓값을 가리킴
         ```
+    - [1206. View](https://github.com/mel1015/algorithm-study/blob/1206/algorithm-study/week_10/1206_mel1015.cpp)
+        - 메모리 사용량이 많다. 메모리랑 실행시간도 생각하면서 풀자.
         
 ## Progress
-- 신광식 : 1954, 1213, 1209, 1208
+- 신광식 : 1954, 1213, 1209, 1208, 1206
