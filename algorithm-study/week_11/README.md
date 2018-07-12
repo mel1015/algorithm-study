@@ -14,6 +14,8 @@
         - [std::string::string](http://www.cplusplus.com/reference/string/string/string/)
         - string의 constructor(생성자)에 iterator(반복자)로 문자열을 만드는 방법이 있음
         - iterator를 활용하면 편하다
+    - [1228. 암호문1](https://github.com/mel1015/algorithm-study/blob/1228/algorithm-study/week_11/1228_mel1015.cpp)
+        - [std::vector::insert](http://www.cplusplus.com/reference/vector/vector/insert/) 활용
         
 ## Progress
-- 신광식 : 1244, 1240, 1234
+- 신광식 : 1244, 1240, 1234, 1228
