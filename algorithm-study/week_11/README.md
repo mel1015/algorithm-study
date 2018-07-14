@@ -16,6 +16,9 @@
         - iterator를 활용하면 편하다
     - [1228. 암호문1](https://github.com/mel1015/algorithm-study/blob/1228/algorithm-study/week_11/1228_mel1015.cpp)
         - [std::vector::insert](http://www.cplusplus.com/reference/vector/vector/insert/) 활용
+    - [1230. 암호문3](https://github.com/mel1015/algorithm-study/blob/1230/algorithm-study/week_11/1230_mel1015.cpp)
+        - [std::vector::erase](http://www.cplusplus.com/reference/vector/vector/erase/) 활용
+        - [1228. 암호문1]에 내용 추가 + 모듈화
         
 ## Progress
-- 신광식 : 1244, 1240, 1234, 1228
+- 신광식 : 1244, 1240, 1234, 1228, 1230
