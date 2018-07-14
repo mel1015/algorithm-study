@@ -19,6 +19,9 @@
     - [1230. 암호문3](https://github.com/mel1015/algorithm-study/blob/1230/algorithm-study/week_11/1230_mel1015.cpp)
         - [std::vector::erase](http://www.cplusplus.com/reference/vector/vector/erase/) 활용
         - [1228. 암호문1]에 내용 추가 + 모듈화
+    - [1220. Magnetic](https://github.com/mel1015/algorithm-study/blob/1220/algorithm-study/week_11/1220_mel1015.cpp)
+        - 문제에서 준 방식 그대로 무식하게 코딩함
+        - 쉽게 해결하는 방법은 각 열에서 1이 나왔을 때 해당 열의 그 다음 값이 2이면 교착상태
         
 ## Progress
-- 신광식 : 1244, 1240, 1234, 1228, 1230
+- 신광식 : 1244, 1240, 1234, 1228, 1230, 1220
