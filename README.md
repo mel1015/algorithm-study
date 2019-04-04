@@ -10,7 +10,7 @@
     - 신광식 개인 스터디
 - [Dovelet](https://github.com/mel1015/algorithm-study/tree/master/Dovelet)
     - 신광식 개인 스터디
-- [Winter_Vacation](https://github.com/mel1015/algorithm-study/tree/master/Winter_Vacation)
+- [algorithm-study](https://github.com/mel1015/algorithm-study/tree/master/algorithm-study)
     - 그룹 스터디
     - 멤버
         - 신광식 : mel1015
