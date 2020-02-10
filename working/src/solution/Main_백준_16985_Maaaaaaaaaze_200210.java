@@ -18,6 +18,7 @@ public class Main_백준_16985_Maaaaaaaaaze_200210 {
 	static int[] dy = { 0, 0, -1, 1, 0, 0 };
 	static int[] dz = { 0, 0, 0, 0, -1, 1 };
 
+	// 판 회전
 	static void makeMap() {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
@@ -64,6 +65,9 @@ public class Main_백준_16985_Maaaaaaaaaze_200210 {
 		}
 	}
 
+	// BFS탐색 => 상, 하, 좌, 우, 위, 아래
+	// 0도, 90도, 180도, 270도 모두 회전시켜 보므로 
+	// 0,0,0 에서 출발 => 4,4,4 에서 도착으로 구해도 답이 나옴
 	static int bfs(int pMap[][][]) {
 		Queue<int[]> q = new LinkedList<>();
 		q.offer(new int[] { 0, 0, 0, 0 });
@@ -91,6 +95,7 @@ public class Main_백준_16985_Maaaaaaaaaze_200210 {
 		return Integer.MAX_VALUE;
 	}
 
+	// 각 판을 시계 방향으로 회전시킬 횟수 => 중복 순열
 	static void overlapPerm(int cnt) {
 		if (cnt == 5) {
 			makeMap();
@@ -111,6 +116,8 @@ public class Main_백준_16985_Maaaaaaaaaze_200210 {
 		}
 	}
 
+	// 판을 쌓을 순서 => 중복 없는 순열
+	// 판을 다 쌓고 회전하는 순서를 정함 => overlapPerm();
 	static void perm(int start, int cnt) {
 		if (cnt == 5) {
 			overlapPerm(0);
