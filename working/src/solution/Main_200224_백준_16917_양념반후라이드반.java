@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_백준_16917_양념반후라이드반_200224 {
+public class Main_200224_백준_16917_양념반후라이드반 {
 	static int a, b, c, x, y;
 
 	public static void main(String[] args) throws Exception {

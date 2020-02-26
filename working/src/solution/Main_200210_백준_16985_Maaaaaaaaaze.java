@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main_백준_16985_Maaaaaaaaaze_200210 {
+public class Main_200210_백준_16985_Maaaaaaaaaze {
 	static final int n = 5;
 	static int answer;
 	static int[][][] map, rotateMap;

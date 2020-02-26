@@ -3,7 +3,7 @@ package solution;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Main_백준_16916_부분문자열_200224 {
+public class Main_200224_백준_16916_부분문자열 {
 
 	static int hashing(String s) {
 		int ans = 0;

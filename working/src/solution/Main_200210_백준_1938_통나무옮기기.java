@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class Main_백준_1938_통나무옮기기_200210 {
+public class Main_200210_백준_1938_통나무옮기기 {
 	static int n, answer;
 	static char[][] map;
 	static ArrayList<int[]> log, goal;

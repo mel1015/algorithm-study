@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Main_백준_16956_늑대와양_200224 {
+public class Main_200224_백준_16956_늑대와양 {
 	static int r, c;
 	static char[][] map;
 	static ArrayList<int[]> sheeps;
