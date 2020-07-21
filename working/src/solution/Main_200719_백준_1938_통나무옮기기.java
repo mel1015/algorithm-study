@@ -14,6 +14,7 @@ public class Main_200719_백준_1938_통나무옮기기 {
 	static int[] dx = { -1, 1, 0, 0 };
 	static int[] dy = { 0, 0, -1, 1 };
 
+	// 통나무를 현재 위치에서 회전 시킬 수 있는지 체크
 	static boolean checkAround(int x, int y) {
 		// 왼쪽 꼭지점을 찾아서 3X3 칸이 비어있는지 체크
 		int leftUpX = x - 1;
@@ -31,9 +32,10 @@ public class Main_200719_백준_1938_통나무옮기기 {
 		return true;
 	}
 
-	static boolean checkRange(int x, int y, int isVertical) {
+	// 통나무가 다음 위치에 현재 모양(isHorizontal)으로 이동할 수 있는지 체크
+	static boolean checkRange(int x, int y, int isHorizontal) {
 		boolean canMove = false;
-		if (isVertical == 1) {
+		if (isHorizontal == 1) {
 			// 가로 모양일 때
 			if (x >= 0 && x < n && y >= 1 && y <= n - 2) {
 				if (map[x][y - 1] == '0' && map[x][y] == '0' && map[x][y + 1] == '0') {
@@ -59,9 +61,9 @@ public class Main_200719_백준_1938_통나무옮기기 {
 		while (!q.isEmpty()) {
 			int x = q.peek()[0];
 			int y = q.peek()[1];
-			int isVertical = q.peek()[2];
+			int isHorizontal = q.peek()[2];
 			int cnt = q.poll()[3];
-			if (x == goal[0] && y == goal[1] && isVertical == goal[2]) {
+			if (x == goal[0] && y == goal[1] && isHorizontal == goal[2]) {
 				answer = Math.min(answer, cnt);
 				return;
 			}
@@ -69,15 +71,15 @@ public class Main_200719_백준_1938_통나무옮기기 {
 			for (int d = 0; d < dx.length; d++) {
 				int nx = x + dx[d];
 				int ny = y + dy[d];
-				if (checkRange(nx, ny, isVertical) && visit[nx][ny][isVertical] == 0) {
-					visit[nx][ny][isVertical] = 1;
-					q.offer(new int[] { nx, ny, isVertical, cnt + 1 });
+				if (checkRange(nx, ny, isHorizontal) && visit[nx][ny][isHorizontal] == 0) {
+					visit[nx][ny][isHorizontal] = 1;
+					q.offer(new int[] { nx, ny, isHorizontal, cnt + 1 });
 				}
 			}
 			// 현재 위치에서 회전 가능하면 회전해서 큐에 넣음
-			if (checkAround(x, y) && checkRange(x, y, 1 ^ isVertical) && visit[x][y][1 ^ isVertical] == 0) {
-				visit[x][y][1 ^ isVertical] = 1;
-				q.offer(new int[] { x, y, 1 ^ isVertical, cnt + 1 });
+			if (checkAround(x, y) && checkRange(x, y, 1 ^ isHorizontal) && visit[x][y][1 ^ isHorizontal] == 0) {
+				visit[x][y][1 ^ isHorizontal] = 1;
+				q.offer(new int[] { x, y, 1 ^ isHorizontal, cnt + 1 });
 			}
 		}
 	}
